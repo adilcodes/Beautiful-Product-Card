@@ -1,10 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@1,300;1,600&display=swap');
 body{
     display: flex;
     justify-content: center;
     align-items: center;
+    min-height: 100vh;
 }
 .main-con{
     display: flex;
     justify-content: center;
     align-items: center;
+}
+.card-body{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 300px;
+    height: 450px;
+    background-color: #202020;
+    border-radius: 10px;
+    padding: 0px !important; 
+}
+.card-body .card-img{
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.card-body .card-img img{
+    width: 276px;
+}
+.card-body .card-text{
+    height: 250px;
+    text-align: center;
+    color: #fff;
+    padding: 53px 10px 0px 10px;
+}
+.card-text h1{
+    font-family: 'Rubik', sans-serif;
+    font-size: 2em !important;
+    font-weight: 600;
+}
+.card-text h1 span{
+    color: #dd5835;
+}
+.card-text p{
+    font-family: 'Rubik', sans-serif;
+    line-height: 1.2;
+}
+.card-text ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style-type: none;
+    padding: 0 !important;
+    margin: 0 !important;
+}
+.card-text ul li{
+    display: inline;
+    padding: 0px 15px;
+    cursor: pointer;
+    transition: 0.4s ease;
+}
+.card-text ul li:hover{
+    color: #dd5835;
 }
